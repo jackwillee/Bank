@@ -3,8 +3,15 @@
 require 'account.rb'
 
 describe Account do
-  it 'balance starts at 0' do
-    account = Account.new(0)
-    expect(account.balance).to eq(0)
-  end
+    let(:account) { subject }
+    it 'starts with a balance of 0 ' do
+        
+        expect(account.balance).to eq 0
+      end
+
+      it 'can make a deposit and see the balance change' do 
+        account.deposit(10)
+      expect(account.balance).to eq(10)
+
+      end 
 end
