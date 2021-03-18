@@ -14,3 +14,7 @@ as a client so i can check my transactions i need to view a printed statement
 
 as a client transactions should be grouped by date with the newest first 
 
+
+
+
+

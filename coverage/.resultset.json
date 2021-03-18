@@ -1,7 +1,34 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/jackwillee/bank-tech-test/Bank/spec/bank_account_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/jackwillee/bank-tech-test/Bank/lib/account.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
     },
-    "timestamp": 1616072109
+    "timestamp": 1616073386
   }
 }
