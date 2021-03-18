@@ -14,4 +14,10 @@ describe Account do
       expect(account.balance).to eq(10)
 
       end 
+      it 'can make a withdrawal ' do 
+      account.deposit(100)
+      account.withdraw(50)
+      expect(account.balance).to eq(50)
+
+      end 
 end
